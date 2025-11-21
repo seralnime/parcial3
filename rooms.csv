@@ -1,0 +1,5 @@
+room_id,room_name,type,created_by,created_at
+101,General,public,1,2024-01-10 8:35:00
+102,Proyecto Alpha,private,4,2024-01-15 14:30:00
+103,Diseño UI/UX,public,2,2024-01-16 9:00:00
+104,Carlos-Felipe,direct,1,2024-02-01 16:10:00

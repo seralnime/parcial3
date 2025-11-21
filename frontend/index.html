@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Auth Section -->
+        <div id="auth-section">
+            <h2>Login / Register</h2>
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button onclick="login()">Login</button>
+            <button onclick="register()">Register</button>
+        </div>
+
+        <!-- Chat Section (Hidden by default) -->
+        <div id="chat-section" style="display: none;">
+            <div class="sidebar">
+                <h3>Rooms</h3>
+                <div id="room-list"></div>
+                <div class="new-room">
+                    <input type="text" id="new-room-name" placeholder="New Room Name">
+                    <button onclick="createRoom()">+</button>
+                </div>
+            </div>
+            <div class="main-chat">
+                <div class="chat-header">
+                    <h3 id="current-room-name">Select a Room</h3>
+                    <button onclick="logout()">Logout</button>
+                </div>
+                <div id="chat-messages"></div>
+                <div class="chat-input">
+                    <input type="text" id="message-input" placeholder="Type a message...">
+                    <button onclick="sendMessage()">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

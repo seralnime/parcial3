@@ -1,0 +1,9 @@
+message_id,room_id,user_id,content,sent_at
+5001,101,1,¡Hola equipo! Bienvenidos al chat general.,2024-01-15 8:00:00
+5002,101,2,¡Hola Carlos! Gracias por añadirme.,2024-01-15 8:05:00
+5003,101,3,Todo listo por aquí en QA.,2024-01-15 8:10:00
+5004,102,4,"Carlos, ¿podemos revisar los requisitos del backend?",2024-01-16 10:00:00
+5005,102,1,"Claro Maria, dame 5 minutos y lo vemos.",2024-01-16 10:02:00
+5006,103,2,"He subido los nuevos mockups, por favor revisadlos.",2024-01-17 15:30:00
+5007,103,1,¡Se ven geniales! Buen trabajo Ana.,2024-01-17 15:45:00
+5008,104,3,"Carlos, ¿tienes el script de prueba?",2024-02-01 16:11:00
